@@ -38,6 +38,6 @@
     </section>
     <!-- ***** About Area Ends ***** -->
 
-    <p>rhrfkwjhfkwhfkw</p>
+    <p>test</p>
 
 @endsection
