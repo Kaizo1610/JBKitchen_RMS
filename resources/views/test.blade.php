@@ -3,4 +3,3 @@ hi akim
 yo waz
 
 badri mahazir
-salam
