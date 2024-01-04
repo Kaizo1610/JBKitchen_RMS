@@ -4,3 +4,5 @@ yo waz
 
 badri mahazir
 
+jalan-jalan cari makan,
+kedai tutup
