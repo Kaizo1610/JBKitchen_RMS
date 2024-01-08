@@ -95,7 +95,7 @@ https://templatemo.com/tm-558-klassy-cafe
     </header>
     <!-- ***** Header Area End ***** -->
 
-@yield('content')
+    @yield('content')
 
     <!-- ***** Footer Start ***** -->
     <footer>
