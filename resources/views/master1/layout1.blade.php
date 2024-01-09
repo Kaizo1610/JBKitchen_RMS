@@ -84,6 +84,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             </li> --}}
                             <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
                             <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li>
+                            <li><a class="nav-link scrollto" href="/login">Continue as Staff</a></li>
                             <li>
                                 @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
