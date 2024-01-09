@@ -1,3 +1,8 @@
+<section class="section" id="login">
+    <div>
+        <h1>Choose your option</h1>
+    </div>
+
 @if (Route::has('login'))
     <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
         @auth
@@ -11,3 +16,10 @@
         @endauth
     </div>
 @endif
+
+</section>
+
+
+
+
+
