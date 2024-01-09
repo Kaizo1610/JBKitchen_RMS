@@ -18,10 +18,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
-
 Route::get("/home", [HomeController::class,"index"]);
 
 Route::get('/about', function () {
