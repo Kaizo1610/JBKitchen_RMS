@@ -33,3 +33,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/loginn', function () {
+    return view('loginn');
+});
