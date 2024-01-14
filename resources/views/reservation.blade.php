@@ -73,7 +73,7 @@
                             </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                                <textarea name="message" rows="6" id="message" placeholder="Enter food code to order" required=""></textarea>
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
