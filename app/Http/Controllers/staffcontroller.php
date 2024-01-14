@@ -3,18 +3,20 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\staff; /* dlm controller kena ada models*/
+use App\Models\Staff; /* dlm controller kena ada models*/
 use Illuminate\Support\Facades\DB;
 
 class staffcontroller extends Controller
 {
     public function index()
     {
-        $staff=DB::table('staff')
-        ->orderBy('staff_number','asc')
-        ->get();
+        // $staff=DB::table('staff')
+        // ->orderBy('staff_number','asc')
+        // ->get();
 
-        return view('staff', ['staff'=>$staff]);
+        // return view('staff', ['staff'=>$staff]);
+        return view("staff");
+
     }
 
     /**
@@ -35,7 +37,7 @@ class staffcontroller extends Controller
         $Staff-> staff_number=$request->staff_number;
         $Staff-> shift=$request->shift;
         $Staff-> duty=$request->duty;
-        $Staff-> save();
+        $student-> save();
         return redirect('staffmember');
     }
 
