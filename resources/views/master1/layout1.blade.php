@@ -58,7 +58,7 @@ https://templatemo.com/tm-558-klassy-cafe
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="/about">About</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
 
 
                         <!--
