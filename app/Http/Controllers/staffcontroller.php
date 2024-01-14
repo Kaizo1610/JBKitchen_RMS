@@ -33,11 +33,11 @@ class staffcontroller extends Controller
     public function store(Request $request)
     {
         $staff= new Staff();
-        $Staff-> staff_name=$request->staff_name;
-        $Staff-> staff_number=$request->staff_number;
-        $Staff-> shift=$request->shift;
-        $Staff-> duty=$request->duty;
-        $student-> save();
+        $staff-> staff_name=$request->staff_name;
+        $staff-> staff_number=$request->staff_number;
+        $staff-> shift=$request->shift;
+        $staff-> duty=$request->duty;
+        $staff-> save();
         return redirect('staffmember');
     }
 
