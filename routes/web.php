@@ -21,9 +21,6 @@ Route::get('/', function () {
 
 Route::get("/home", [HomeController::class,"index"]);
 
-Route::get('/about', function () {
-    return view('about');
-});
 
 Route::middleware([
     'auth:sanctum',
@@ -39,4 +36,7 @@ Route::get('/loginn', function () {
     return view('loginn');
 });
 
- Route::post("/reservation",[AdminController::class,"reservation"]);
+// Route::post("/reservation",[AdminController::class,"reservation"] ()
+// {
+//     return view('loginn');
+// });
