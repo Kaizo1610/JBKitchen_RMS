@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Klassy Cafe - Restaurant HTML Template</title>
+    <title>JB Kitchen - Restaurant </title>
 <!--
 
 TemplateMo 558 Klassy Cafe
@@ -122,7 +122,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright Klassy Cafe Co.
+                        <p>© Copyright JB Kitchen Co.
 
                         <br>Design: TemplateMo</p>
                     </div>
