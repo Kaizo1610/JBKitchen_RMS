@@ -35,7 +35,7 @@ class staffcontroller extends Controller
         $Staff-> staff_number=$request->staff_number;
         $Staff-> shift=$request->shift;
         $Staff-> duty=$request->duty;
-        $student-> save();
+        $Staff-> save();
         return redirect('staffmember');
     }
 
