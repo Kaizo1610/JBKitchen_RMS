@@ -16,7 +16,7 @@
                         </h5>
                       </div>
 
-                      <button type="button" class="btn btn-primary" onclick="location.href='add-student'">Update Staff</button>
+                      <button type="button" class="btn btn-primary" onclick="location.href='update-staff'">Update Staff</button>
 
 
                       <div class="col-sm-12">
