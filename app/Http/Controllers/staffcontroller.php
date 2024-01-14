@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\staff; /* dlm controller kena ada models*/
+use App\Models\Staff; /* dlm controller kena ada models*/
 use Illuminate\Support\Facades\DB;
 
 class staffcontroller extends Controller
@@ -33,11 +33,11 @@ class staffcontroller extends Controller
     public function store(Request $request)
     {
         $staff= new Staff();
-        $Staff-> staff_name=$request->staff_name;
-        $Staff-> staff_number=$request->staff_number;
-        $Staff-> shift=$request->shift;
-        $Staff-> duty=$request->duty;
-        $student-> save();
+        $staff-> staff_name=$request->staff_name;
+        $staff-> staff_number=$request->staff_number;
+        $staff-> shift=$request->shift;
+        $staff-> duty=$request->duty;
+        $staff-> save();
         return redirect('staffmember');
     }
 
