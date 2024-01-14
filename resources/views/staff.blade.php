@@ -1,4 +1,5 @@
-<x-app-layout>
+@extends('master1.stafflayout')     <!--include other file content-->
+@section('content')     <!-- mergekan content -->
 
     <!-- ======= Staff Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
@@ -58,4 +59,5 @@
           </div>
         </div>
       </section><!-- End Contact Section -->
-</x-app-layout>
+
+      @endsection
