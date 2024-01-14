@@ -35,14 +35,14 @@
                                 </thead>
                                 <tbody>
 
-                                    @foreach ($staff as $staffmember)
+                                    {{-- @foreach ($staff as $staffmember)
                                 <tr>
                                     <td>{{ $staffmember->staff_name}}</td>
                                     <td>{{ $staffmember->staff_number}}</td>
                                     <td>{{ $staffmember->shift}}</td>
                                     <td>{{ $staffmember->duty}}</td>
                                 </tr>
-                            @endforeach
+                            @endforeach --}}
 
                                 </tbody>
                               </table>

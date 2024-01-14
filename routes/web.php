@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\staffcontroller;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +21,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get("/student", [staffcontroller::class,"index"]);
+Route::get("/staff", [staffcontroller::class,"index"]);
 
 Route::get("/home", [HomeController::class,"index"]);
 
