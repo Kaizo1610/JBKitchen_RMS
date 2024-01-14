@@ -36,10 +36,6 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::get('/about', function () {
-    return view('about');
-});
-
 Route::get('/loginn', function () {
     return view('loginn');
 });
