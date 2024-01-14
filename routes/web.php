@@ -19,8 +19,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get("/home", [HomeController::class,"index"]);
+Route::get("/student", [staffcontroller::class,"index"]);
 
+Route::get("/home", [HomeController::class,"index"]);
 
 Route::middleware([
     'auth:sanctum',
