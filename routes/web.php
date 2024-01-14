@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +21,6 @@ Route::get('/', function () {
 
 Route::get("/home", [HomeController::class,"index"]);
 
-Route::get('/about', function () {
-    return view('about');
-});
 
 Route::middleware([
     'auth:sanctum',
@@ -37,3 +35,12 @@ Route::middleware([
 Route::get('/loginn', function () {
     return view('loginn');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+// Route::post("/reservation",[AdminController::class,"reservation"] ()
+// {
+//     return view('loginn');
+// });

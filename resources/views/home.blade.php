@@ -202,7 +202,7 @@
                             <img src="assets/images/chefs-01.jpg" alt="Chef #1">
                         </div>
                         <div class="down-content">
-                            <h4>Randy Walker</h4>
+                            <h4>Randy Orton</h4>
                             <span>Pastry Chef</span>
                         </div>
                     </div>
