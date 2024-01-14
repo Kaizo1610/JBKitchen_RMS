@@ -37,3 +37,8 @@ Route::middleware([
 Route::get('/loginn', function () {
     return view('loginn');
 });
+
+Route::post("/reservation",[AdminController::class,"reservation"] ()
+{
+    return view('loginn');
+});
