@@ -55,7 +55,7 @@ a:hover {
 }
 
 .footer {
-        background-color: #333;
+        background-color: #fb5849;
         color: white;
         text-align: center;
        padding: 10px;
