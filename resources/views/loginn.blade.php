@@ -12,15 +12,29 @@
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.section {
+.logo {
+        width: 150px; /* Set the width of your logo */
+        height: 50px; /* Set the height of your logo */
+        cursor: pointer;
+        position: absolute; /* Position the logo absolutely */
+        top: 20px; /* Set the distance from the top */
+        left: 20px; /* Set the distance from the left */
+        }
+
+ .section {
     text-align: center;
-    padding: 20px;
+    margin-top: -150px;
+   /* padding: 20px;
     background-color: #fff;
     margin: 50px auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
 }
 
 h1 {
@@ -29,6 +43,7 @@ h1 {
 
 a {
     text-decoration: none;
+    font-size: 25px;
     color: #333;
     padding: 8px 16px;
     border-radius: 4px;
@@ -38,6 +53,16 @@ a {
 a:hover {
     background-color: #ddd;
 }
+
+.footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+       padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        }
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
@@ -50,13 +75,22 @@ a:hover {
         display: block;
         margin: 10px 0;
     }
+
+
 }
 
 </style>
 <body>
+
+    <div class="header">
+        <a href="/home">
+            <img src="assets/images/klassy-logo.png" align="klassy cafe html template" alt="Logo" class="logo">
+        </a>
+    </div>
+
     <section class="section" id="login">
     <div>
-        <h1>Choose your option</h1>
+        <h1>Hi, Please choose your option</h1>
     </div>
 
 @if (Route::has('login'))
@@ -66,6 +100,8 @@ a:hover {
         @else
             <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
 
+            <br><br><a>or</a> <br><br>
+
             @if (Route::has('register'))
                 <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
             @endif
@@ -74,6 +110,11 @@ a:hover {
 @endif
 
 </section>
+
+<div class="footer">
+    <p>&copy; Copyright JBKitchen Co.</p>
+</div>
+
 </body>
 </html>
 
