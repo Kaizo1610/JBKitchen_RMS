@@ -22,7 +22,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get("/staff", [staffcontroller::class,"index"]);
+// Route::get("/staff", [staffcontroller::class,"index"]);
+
+Route::get("/admin", [AdminController::class,"index"]);
 
 Route::get("/home", [HomeController::class,"index"]);
 

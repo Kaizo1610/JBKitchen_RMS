@@ -15,6 +15,16 @@ use App\Models\Reservation;
 class AdminController extends Controller
 
 {
+    public function index()
+    {
+        // $staff=DB::table('staff')
+        // ->orderBy('staff_number','asc')
+        // ->get();
+
+        // return view('staff', ['staff'=>$staff]);
+        return view("admin");
+
+    }
     public function reservation(Request $request)
 {
     $data = new reservation;
