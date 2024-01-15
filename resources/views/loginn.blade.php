@@ -58,7 +58,7 @@ a:hover {
         background-color: #fb5849;
         color: white;
         text-align: center;
-       padding: 10px;
+        padding: 10px;
         position: fixed;
         bottom: 0;
         width: 100%;
