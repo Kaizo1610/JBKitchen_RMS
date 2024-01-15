@@ -90,7 +90,7 @@ a:hover {
 
     <section class="section" id="login">
     <div>
-        <h1>Hi <br> Please choose your option</h1>
+        <h1>Hi <br>Please choose your option</h1>
     </div>
 
 @if (Route::has('login'))
