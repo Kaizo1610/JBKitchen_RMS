@@ -22,7 +22,7 @@ class AdminController extends Controller
         // ->get();
 
         // return view('staff', ['staff'=>$staff]);
-        return view("admin");
+        return view("admin.adminhome");
 
     }
     public function reservation(Request $request)
