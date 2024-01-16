@@ -8,12 +8,12 @@
 
     @include("admin.admincss")
 
-
   </head>
   <body>
-    <div class="container-scroller">
 
     @include("admin.navbar")
+
+    <h1>Admin Chef</h1>
 
     @include("admin.adminscript")
 
