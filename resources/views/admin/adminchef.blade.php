@@ -1,4 +1,4 @@
-<x-app-layout>
+{{-- <x-app-layout>
 
 </x-app-layout>
 
@@ -24,4 +24,4 @@
 
 
   </body>
-</html>
+</html> --}}
