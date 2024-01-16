@@ -17,6 +17,11 @@ class AdminController extends Controller
 {
     public function index()
     {
+        return view("");
+    }
+
+    public function redirects()
+    {
         return view("admin.adminhome");
     }
 

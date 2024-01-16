@@ -23,6 +23,8 @@ Route::get('/', function () {
 
 Route::get("/staff", [staffcontroller::class,"index"]);
 
+Route::get("/redirects", [AdminController::class,"redirects"]);
+
 Route::get("/users", [AdminController::class,"user"]);
 
 Route::get("/home", [HomeController::class,"index"]);
