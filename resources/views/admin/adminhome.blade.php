@@ -10,8 +10,13 @@
 
   </head>
   <body>
+    <div class="container-scroller">
 
     @include("admin.navbar")
+
+    <h1>USERS</h1>
+
+    </div>
 
     @include("admin.adminscript")
 
