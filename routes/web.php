@@ -27,7 +27,7 @@ Route::get("/users", [AdminController::class,"user"]);
 
 Route::get("/home", [HomeController::class,"index"]);
 
-
+Route::get("/viewchef", [AdminController::class,"viewchef"]);
 
 Route::middleware([
     'auth:sanctum',
@@ -47,3 +47,5 @@ Route::get('/loginn', function () {
  {
      return view('loginn');
  };
+
+
