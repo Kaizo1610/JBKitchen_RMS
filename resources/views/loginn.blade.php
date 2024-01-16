@@ -29,7 +29,7 @@
 
  .section {
     text-align: center;
-    margin-top: -250px;
+    margin-top: -240px;
    /* padding: 20px;
     background-color: #fff;
     margin: 50px auto;
