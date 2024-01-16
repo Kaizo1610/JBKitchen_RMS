@@ -53,7 +53,7 @@ public function viewchef()
 {
 
 
-    return view("admin");
+    return view("admin.adminchef");
 }
 
 
