@@ -29,7 +29,7 @@
 
  .section {
     text-align: center;
-    margin-top: -150px;
+    margin-top: -250px;
    /* padding: 20px;
     background-color: #fff;
     margin: 50px auto;
@@ -90,7 +90,7 @@ a:hover {
 
     <section class="section" id="login">
     <div>
-        <h1>Hi <br>Please choose your option</h1>
+        <h1>Hi<br><br>Please choose your option</h1> <br>
     </div>
 
 @if (Route::has('login'))
