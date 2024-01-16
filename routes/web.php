@@ -28,6 +28,8 @@ Route::get("/admin", [AdminController::class,"index"]);
 
 Route::get("/home", [HomeController::class,"index"]);
 
+Route::get("/viewchef", [AdminController::class,"viewchef"]);
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -46,3 +48,5 @@ Route::get('/loginn', function () {
  {
      return view('loginn');
  };
+
+

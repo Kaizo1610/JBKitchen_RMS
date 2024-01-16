@@ -43,4 +43,12 @@ class AdminController extends Controller
 
 }
 
+public function viewchef()
+{
+
+
+    return view("admin");
+}
+
+
 }
