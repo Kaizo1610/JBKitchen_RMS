@@ -24,9 +24,9 @@ Route::get('/', function () {
 
 // Route::get("/staff", [staffcontroller::class,"index"]);
 
-Route::get("/admin", [AdminController::class,"index"]);
-
 Route::get("/home", [HomeController::class,"index"]);
+
+Route::get("/users", [AdminController::class,"user"]);
 
 Route::middleware([
     'auth:sanctum',
