@@ -5,7 +5,7 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="/admin" class="logo">
+                    <a href="/redirects" class="logo">
                         <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
                     </a>
                 </div>
