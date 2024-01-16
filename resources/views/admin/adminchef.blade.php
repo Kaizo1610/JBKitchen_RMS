@@ -12,10 +12,11 @@
   <body>
     <div class="container-scroller">
 
+
     @include("admin.navbar")
 
-
     <h1>Admin Chef</h1>
+
 
     </div>
 
