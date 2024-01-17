@@ -28,6 +28,12 @@ class AdminController extends Controller
 
     }
 
+    public function foodmenu()
+    {
+        return view('admin.foodmenu');
+
+    }
+
     public function index()
     {
         return view("");
