@@ -65,11 +65,8 @@
                         <div class="col-4">
                             <img src="assets/images/laksajohor.jpeg" alt="">
                         </div>
-                        <div class="col-4">
+                        <div class="col-5">
                             <img src="assets/images/nasi-ambeng.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img src="assets/images/about-thumb-03.jpg" alt="">
                         </div>
                     </div>
                 </div>
