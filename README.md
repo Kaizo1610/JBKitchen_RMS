@@ -47,37 +47,33 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 #### 4.1.3 Sign Up Page
 <p>1. Staff can sign up on this page and will be directed to the staff page.</p>
-
+</br></br>
 
 #### 4.2 Admin Page
-#### 4.2.1 View staff duty 
-<p>1.Display a list of staff and their duty in a week.</p>
-<p>2.The table also can be modified, by clicking on the update button it will navigate to the update duty page.</p>
-
-#### 4.2.2 Update duty 
+#### 4.2.1 Update duty 
 <p>1.Assign a duty for staff by filling the form and clicking the submit button to save.</p>
 <p>2.Also can remove staff by clicking the delete button. </p>
 
-#### 4.2.3 Update menu 
+#### 4.2.2 Update menu 
 <p>1.Insert a new menu into database to display  in website.</p>
 <p>2.Also can remove menu by clicking the delete button. </p>
 
-#### 4.2.4 View reservation 
+#### 4.2.3 View reservation 
 <p>1.The recorded reservation  is liist up in the table for admin to monitor.</p>
 
-#### 4.2.4 View registerd user 
-<p>1.The recorded reservation  is liist up in the table for admin to monitor.</p>
-
+#### 4.2.4 View registerd user(staff) 
+<p>1.Monitor staff that have been register/login into website.</p>
+</br></br>
 
 #### 4.3 About page
 #### 4.3.1 View about page
 <p>1.Explain more about our restaurant's background.</p>
-
+</br></br>
 
 #### 4.5 Chefs Page
 #### 4.5.1 View chefs 
 <p>1.List up the best chefs from our restaurant.</p>
-
+</br></br>
 
 #### 4.6 Contact Us Page
 #### 4.6.1 View contact Information
@@ -89,13 +85,12 @@ The reservation system ensures that customers can effortlessly plan their visits
 <p>1.Customers can fill the empty boxes with the reservation details.</p>
 <p>2.Customers just need to click the "Make a Reservation" button to submit their reservation details and book for table.</p>
 <p>3After click "Make a Reservation" button then it will be directed to the payment page.</p>
-
+</br></br>
 
 #### 4.7 Payment Page
 #### 4.7.1 View Payment page
-<p>1.Customers can view the detailed payment they need to pay.</p>
-<p>2.List up the methods that can be used by customers to make payments.</p>
-
+<p>1.List up the methods that can be used by customers to make payments.</p>
+</br></br>
 
 ### 5.0 Entity Relation Diagram
 <img src="ER diagram.png"><br><br>
@@ -111,3 +106,10 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 <p>1. Display image of restaurant</p> 
 <img src=".png">
+
+7.2 Reservation page
+<img src=".png">
+
+
+### 8.0 Challenges and difficulties during development
+<p>1.Problem with mysql xamp where the file was corrupted althoug we have save it keep occur.</p>
