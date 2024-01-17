@@ -120,7 +120,7 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 #### 7.4 Chefs Page
 <p>1. Showing the best chef the restaurant have.</p> 
-<img src="chefs.png"></br>
+<img src="chef.png"></br>
 
 7.2 Reservation page
 <img src="ReservationPage.png">
