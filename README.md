@@ -146,6 +146,7 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 
 ### 8.0 Challenges and difficulties during development
-<p>1. Problem with mysql xamp where the file was corrupted althoug we have save it keep occur.</p>
+<p>1. Problem with mysql xamp where the file was corrupted although we have solve, it keep occur.</p>
 <p>2. Miscommunication often occurs between us.</p>
 <p>3. Hard to keep following the mockups as many new features occur during development process.</p>
+<p>4. Use most of the time to solve the technical error instead working on page development like error with 'npm run dev' command.</p>
