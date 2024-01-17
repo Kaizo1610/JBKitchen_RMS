@@ -2,7 +2,7 @@
 
 # INFO 3305 WEB APPLICATION DEVELOPMENT 
 
-## PROJECT: PROPOSAL & MOCK UP  
+## PROJECT REPORT 
 ## SECTION 2 (SEM 1 2023/2024)
 ## INSTRUCTOR: MOHD KHAIRUL AZMI BIN HASSAN 
 
@@ -37,98 +37,64 @@ The reservation system ensures that customers can effortlessly plan their visits
 ### 4.0 Features and Functionalities
 #### 4.1 Main Page
 #### 4.1.1 Home Page
-<img src="mianpage.png">
 <p>1. Display image of restaurant</p>
 <p>2. Customers can click to go home, about, menu, chefs and contact us</p> 
 <p>3. Staff can click continue as staff and will navigated to log in page</p><br>
 
 #### 4.1.2 Login Page
-<img src="Login Page.png">
 <p>1. Staff can login and will be directed to the staff page</p>
 <p>2. Staff can click  sign up and will be directed to the sign up page.</p><br>
 
 #### 4.1.3 Sign Up Page
-<img src="SignUp Page.png">
 <p>1. Staff can sign up on this page and will be directed to the staff page.</p><br><br>
 
 
-#### 4.2 Staff Page
-#### 4.2.1 Staff duty page
-<img src="staff1.png">
+#### 4.2 Admin Page
+#### 4.2.1 View staff duty 
 <p>1.Display a list of staff and their duty in a week.</p>
 <p>2.The table also can be modified, by clicking on the update button it will navigate to the update duty page.</p><br>
 
-#### 4.2.2 Update duty page
-<img src="staff2.png">
+#### 4.2.2 Update duty 
 <p>1.Assign a duty for staff by filling the form and clicking the submit button to save.</p>
 <p>2.Also can remove staff by clicking the delete button. </p><br><br>
+
+#### 4.2.3 Update menu 
+<p>1.Insert a new menu into database to display  in website.</p>
+<p>2.Also can remove menu by clicking the delete button. </p><br><br>
+
+#### 4.2.4 View reservation 
+<p>1.The recorded reservation  is liist up in the table for admin to monitor.</p><br><br>
+
+#### 4.2.4 View registerd user 
+<p>1.The recorded reservation  is liist up in the table for admin to monitor.</p><br><br>
 
 
 #### 4.3 About page
 #### 4.3.1 View about page
-<img src="about1.png">
 <p>1.Explain more about our restaurant's background.</p><br><br>
-
-#### 4.4 Order page
-#### 4.4.1 Make Order page
-<img src="MakeOrder.png">
-<p>1.Customers can choose which meals they want.</p>
-<p>2.Customers can use the left and right arrows to add or remove the quantity of that meal.</p>
-<p>3.Customers just need to click the "order" button to finalize their orders.</p><br>
-
-#### 4.4.2 View Order page
-<img src="ViewOrder.png">
-<p>1.Customers can see the details of orders that they make.</p>
-<p>2.Customers can click the "back" button to go back to the previous page.</p>
-<p>3.Customers just need to click the "pay" button once they already finalized their orders.</p>
-<p>4.Customers also can click the "cancel" button if they want to change their mind.</p><br><br>
 
 
 #### 4.5 Chefs Page
-#### 4.5.1 View Chefs page
-<img src="chefs1.png">
+#### 4.5.1 View chefs 
 <p>1.List up the best chefs from our restaurant.</p><br><br>
 
 
 #### 4.6 Contact Us Page
-#### 4.6.1 View Contact page
-<img src="ContactUs.png">
+#### 4.6.1 View contact Information
 <p>1.Customers can view the methods to contact our restaurant.</p>
 <p>2.Customers can view the location of our restaurant.</p>
 <p>3.Customers can click the "reserve your table" button to reserve the table and time.</p>
 
-#### 4.6.2 Table Reservation page
-<img src="TableReservation.png">
+#### 4.6.2 Reserve/book table
 <p>1.Customers can fill the empty boxes with the reservation details.</p>
-<p>2.Customers just need to click the "Make a Reservation" button to submit their reservation details,  and then will be directed to the make order page.</p>
-<p>3.Customers can click the "Cancel" button to cancel their reservation,  and then will be directed to the home page.</p>
-<p>4. Staff can click  "Order Now" button to skip the page and will be directed to the make order page.</p><br><br>
+<p>2.Customers just need to click the "Make a Reservation" button to submit their reservation details and book for table.</p>
+<p>3After click "Make a Reservation" button then it will be directed to the payment page.</p>
+
 
 #### 4.7 Payment Page
 #### 4.7.1 View Payment page
-<img src="ViewPayment.png">
 <p>1.Customers can view the detailed payment they need to pay.</p>
 <p>2.List up the methods that can be used by customers to make payments.</p>
-
-#### 4.7.2 Online Banking page
-<img src="OnlineBanking.png">
-<p>1.Customers can use either QR pay or transfer to the directed bank account to settle the payments.</p><br>
-
-#### 4.7.3 Credit Card page
-<img src="CreditCard.png">
-<p>1.Customers can view several empty boxes that they need to fill to complete the payments.</p><br>
-
-#### 4.7.4 Payment Successful page
-<img src="PaymentSuccess.png">
-<p>1.Customers will see the payment successful.</p>
-<p>2.Customers can click the "return" button to go back to the previous page.</p>
-<p>3.Customers also can click the "view order" button to view back the order.</p><br>
-
-#### 4.7.5 Payment Failed page
-<img src="PaymentFail.png">
-<p>1.Customers will see the payment failed.</p>
-<p>2.Customers can click the "return" button to go back to the previous page.</p>
-<p>3.Customers also can click the "view order" button to view back the order.</p><br>
 
 
 ### 5.0 Entity Relation Diagram
@@ -139,4 +105,9 @@ The reservation system ensures that customers can effortlessly plan their visits
 <img src="WebProjectSD.png">
 
 
+### 7.0 Website Page-JBKitchen_RMS
 
+#### 7.1 Main Page
+
+<p>1. Display image of restaurant</p> 
+<img src=".png">
