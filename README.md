@@ -122,7 +122,7 @@ The reservation system ensures that customers can effortlessly plan their visits
 <p>1. Showing the best chef the restaurant have.</p> 
 <img src="chefpage.png"></br>
 
-7.5 Reservation page
+7.5 Contact Us page
 <p>1. Display our contacts such as phone numbers and emails.</p> 
 <p>2. Here customers can make their table reservation and food reservation.</p>
 <p>3. Customers can fill their reservation details in the text box.</p>
