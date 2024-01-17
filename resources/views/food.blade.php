@@ -6,7 +6,7 @@
                 <div class="col-lg-4">
                     <div class="section-heading">
                         <h6>Our Menu</h6>
-                        <h2>Delicious meals with Johorian taste</h2>
+                        <h2>Delicious meals with Johorian taste...</h2>
                     </div>
                 </div>
             </div>
