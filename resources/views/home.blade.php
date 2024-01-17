@@ -9,8 +9,8 @@
                     <div class="left-content">
                         <div class="inner-content">
                             <h4>JBKitchen</h4>
-                            <h6>Eat Like A King</h6>
-                            <h6>Savor Like A Sultan</h6>
+                            <h6> <i> Taste Like A King... </i></h6>
+                            <h6> <i> Savor Like A Sultan... </i> </h6>
                             <div class="main-white-button scroll-to-section">
                                 <a href="#reservation">Make A Reservation</a>
                             </div>
@@ -63,10 +63,10 @@
                         So come join us at JB Kitchen, and experience the taste of Johor that's truly unforgettable.</p>
                     <div class="row">
                         <div class="col-4">
-                            <img src="assets/images/about-thumb-01.jpg" alt="">
+                            <img src="assets/images/laksajohor.jpg" alt="">
                         </div>
                         <div class="col-4">
-                            <img src="assets/images/about-thumb-02.jpg" alt="">
+                            <img src="assets/images/nasi-ambeng.jpg" alt="">
                         </div>
                         <div class="col-4">
                             <img src="assets/images/about-thumb-03.jpg" alt="">
