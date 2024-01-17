@@ -36,6 +36,13 @@ class AdminController extends Controller
 
     }
 
+    public function updateview($id)
+    {
+        $data=food::find($id);
+        return view("admin.updateview", compact("data"));
+
+    }
+
     public function foodmenu()
     {
         $data = food::all();

@@ -57,7 +57,8 @@
                     <th style="padding: 30px">Price</th>
                     <th style="padding: 30px">Description</th>
                     <th style="padding: 30px">Image</th>
-                    <th style="padding: 30px">Action</th>
+                    <th style="padding: 30px">1st Action</th>
+                    <th style="padding: 30px">2nd Action</th>
 
                 </tr>
 
@@ -70,6 +71,8 @@
                     <td><img height="300" width="300" src="/foodimage/{{$data->image}}"></td>
 
                     <td><a style="color:yellow" href="{{url('/deletemenu',$data->id)}}">Delete</a></td>
+
+                    <td><a style="color:yellow" href="{{url('/updateview',$data->id)}}">Update</a></td>
 
                 </tr>
 
