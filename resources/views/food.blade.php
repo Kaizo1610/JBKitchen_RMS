@@ -20,7 +20,7 @@
                     <div class="item">
                         <div style="background-image: url('/foodimage/{{$data->image}}');" class='card card1'>
 
-                            <div class="price"><h6>{{$data->codeno}}</h6></div>
+                            <div class="codeno"><h6>{{$data->codeno}}</h6></div>
                             <div class='info'>
                               <h1 class='title'>{{$data->title}}</h1>
                               <p class='description'>{{$data->description}}</p>
