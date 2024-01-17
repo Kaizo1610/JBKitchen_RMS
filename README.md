@@ -140,7 +140,7 @@ The reservation system ensures that customers can effortlessly plan their visits
 #### 7.7 Payment Page
 <p>1. After the customer fill up their reservation details and click make reservation, they will be brought to payment page.</p> 
 <p>2. Customer can choose whether they want to pay with a credit card or using QR payment.</p>
-<img src="paymentpage.png"></br>
+<img src="paymentpagenew.png"></br>
 <img src="creditcard.png"></br>
 <img src="qrpayment.png"></br>
 
