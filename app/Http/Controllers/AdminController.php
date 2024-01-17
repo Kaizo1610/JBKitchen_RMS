@@ -74,11 +74,6 @@ class AdminController extends Controller
 
 
 
-
-
-
-
-
     public function index()
     {
         return view("");
@@ -126,6 +121,8 @@ class AdminController extends Controller
         return redirect()->back();
 
     }
+
+
 
 public function viewchef()
 {

@@ -44,6 +44,8 @@ Route::get("/updateview/{id}", [AdminController::class,"updateview"]);
 
 Route::post("/update/{id}", [AdminController::class,"update"]);
 
+Route::post("/reservation",[AdminController::class,"reservation"]);
+
 
 
 Route::get("/viewchef", [AdminController::class,"viewchef"]);
@@ -62,7 +64,6 @@ Route::get('/loginn', function () {
     return view('loginn');
 });
 
- Route::post("/reservation",[AdminController::class,"reservation"]);
  {
      return view('loginn');
  };
