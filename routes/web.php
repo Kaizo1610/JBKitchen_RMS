@@ -52,7 +52,9 @@ Route::get("/viewchef", [AdminController::class,"viewchef"]);
 
 Route::post("/uploadchef", [AdminController::class,"uploadchef"]);
 
+Route::get("/viewcreditcard",[AdminController::class,"viewcreditcard"]);
 
+Route::get("/viewqr",[AdminController::class,"viewqr"]);
 
 Route::middleware([
     'auth:sanctum',

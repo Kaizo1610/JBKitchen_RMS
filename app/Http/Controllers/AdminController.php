@@ -128,7 +128,7 @@ class AdminController extends Controller
 
         $data->save();
 
-        return redirect()->back();
+        return view("payment");
 
     }
 
@@ -143,10 +143,12 @@ class AdminController extends Controller
 
     //Chefs
 
-    public function viewchef()
-    {
-        return view("admin.adminchef");
-    }
+public function viewchef()
+{
+
+
+    return view("admin.adminchef");
+}
 
 
     public function uploadchef(Request $request)
@@ -169,9 +171,20 @@ class AdminController extends Controller
     }
 
 
+    public function viewcreditcard()
+    {
 
 
+        return view("creditcard");
+    }
 
+
+    public function viewqr()
+    {
+
+
+        return view("qrpayment");
+    }
 
 
 
