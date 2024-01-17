@@ -51,8 +51,8 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 #### 4.2 Admin Page
 #### 4.2.1 Update duty 
-<p>1.Assign a duty for staff by filling the form and clicking the submit button to save.</p>
-<p>2.Also can remove staff by clicking the delete button. </p>
+<p>1.Assign a duty for staff in the database.</p>
+<p>2.Also can remove duty by clicking the delete button. </p>
 
 #### 4.2.2 Update menu 
 <p>1.Insert a new menu into database to display  in website.</p>
@@ -101,12 +101,17 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 
 ### 7.0 Website Page-JBKitchen_RMS
+</br>
 
 #### 7.1 Main Page
-
 <p>1. Display image of restaurant and restuarant trademark.</p> 
 <p>2. Has 'Make Reservation' button that will direct to table reservation.</p>
-<img src="homepage.png">
+<img src="homepage.png"></br>
+
+#### 7.2 About us Page
+<p>1. Tell about the restaurant background, what our value proposition.</p> 
+<p>2. Highlighting the best menu in the restaurant.</p>
+<img src="aboutuspage.png"></br>
 
 7.2 Reservation page
 <img src="ReservationPage.png">
@@ -114,3 +119,4 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 ### 8.0 Challenges and difficulties during development
 <p>1.Problem with mysql xamp where the file was corrupted althoug we have save it keep occur.</p>
+<p>2.Miscommunication occurs between us.</p>
