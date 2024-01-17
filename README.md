@@ -145,9 +145,11 @@ The reservation system ensures that customers can effortlessly plan their visits
 <img src="qrpayment.png"></br>
 
 #### 7.8 Register/Login Page
-<p>1. Showing the best chef the restaurant have.</p> 
-<img src="loginpage1.jpeg"></br>
+<p>1. Staff can choose to log in or register or can back to home by clicking logo</p> 
+<p>2. user can login and register.</p>
+<img src="loginpage3.jpeg"></br>
 <img src="loginpage2.jpeg"></br>
+<img src="loginpage1.jpeg"></br>
 
 #### 7.9 Admin Page
 <p>1. This page allow admin to update, add and delete menu in the database that wiill be displayed in the website.</p> 
