@@ -83,8 +83,8 @@ a:hover {
 <body>
 
     <div class="header">
-        <a href="/home">
-            <img src="assets/images/klassy-logo.png" align="klassy cafe html template" alt="Logo" class="logo">
+        <a href="/">
+            <img src="assets/images/jbklogo.png" style="width:120px;height:100px;" alt="Logo" class="logo">
         </a>
     </div>
 
