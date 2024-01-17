@@ -66,6 +66,9 @@ Route::middleware([
     })->name('dashboard');
 });
 
+
+//loginRoute
+
 Route::get('/loginn', function () {
     return view('loginn');
 });
