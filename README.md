@@ -108,7 +108,7 @@ The reservation system ensures that customers can effortlessly plan their visits
 <img src=".png">
 
 7.2 Reservation page
-<img src=".png">
+<img src="ReservationPage.png">
 
 
 ### 8.0 Challenges and difficulties during development
