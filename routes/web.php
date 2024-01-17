@@ -56,6 +56,7 @@ Route::get("/viewcreditcard",[AdminController::class,"viewcreditcard"]);
 
 Route::get("/viewqr",[AdminController::class,"viewqr"]);
 
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

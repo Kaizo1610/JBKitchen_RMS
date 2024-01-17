@@ -11,11 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('foodchefs', function (Blueprint $table) {
+        Schema::create('staff_duties', function (Blueprint $table) {
             $table->id();
-            $table->string("name")->nullable();
-            $table->string("speciality")->nullable();
-            $table->string("image")->nullable();
             $table->timestamps();
         });
     }
@@ -25,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('foodchefs');
+        Schema::dropIfExists('staff_duties');
     }
 };

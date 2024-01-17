@@ -12,6 +12,8 @@ use App\Models\User;
 
 use App\Models\Foodchef;
 
+use App\Models\StaffDuty;
+
 class AdminController extends Controller
 
 
@@ -62,7 +64,7 @@ class AdminController extends Controller
 
                 $data->image = $imagename;
                 $data->title = $request -> title;
-                $data->price = $request -> price;
+                $data->codeno = $request -> codeno;
                 $data->description = $request -> description;
                 $data->save();
 
@@ -89,15 +91,13 @@ class AdminController extends Controller
 
                 $data->image = $imagename;
                 $data->title = $request -> title;
-                $data->price = $request -> price;
+                $data->codeno = $request -> codeno;
                 $data->description = $request -> description;
                 $data->save();
 
                 return redirect()->back();
 
     }
-
-
 
 
     public function index()
@@ -170,6 +170,10 @@ public function viewchef()
         return redirect()->back();
 
     }
+
+
+
+
 
 
     public function viewcreditcard()

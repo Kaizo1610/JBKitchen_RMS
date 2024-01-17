@@ -14,9 +14,19 @@
             <span class="menu-icon">
               <i class="mdi mdi-speedometer"></i>
             </span>
-            <span class="menu-title">Users</span>
+            <span class="menu-title">Staffs</span>
           </a>
         </li>
+
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="{{url('/viewstaff')}}">
+              <span class="menu-icon">
+                <i class="mdi mdi-table-large"></i>
+              </span>
+              <span class="menu-title">StaffDuty</span>
+            </a>
+          </li>
+
         <li class="nav-item menu-items">
           <a class="nav-link" href="{{url('/foodmenu')}}">
             <span class="menu-icon">
@@ -25,14 +35,7 @@
             <span class="menu-title">FoodMenu</span>
           </a>
         </li>
-        <li class="nav-item menu-items">
-          <a class="nav-link" href="{{url('/viewchef')}}">
-            <span class="menu-icon">
-              <i class="mdi mdi-table-large"></i>
-            </span>
-            <span class="menu-title">Chefs</span>
-          </a>
-        </li>
+
         <li class="nav-item menu-items">
           <a class="nav-link" href="{{url('/viewreservation')}}">
             <span class="menu-icon">
@@ -41,6 +44,15 @@
             <span class="menu-title">Reservations</span>
           </a>
         </li>
+
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="{{url('/viewchef')}}">
+              <span class="menu-icon">
+                <i class="mdi mdi-table-large"></i>
+              </span>
+              <span class="menu-title">Chefs</span>
+            </a>
+          </li>
 
       </ul>
     </nav>
