@@ -74,8 +74,7 @@
             <div class="col-lg-6 col-md-6 col-xs-12">
                 <div class="right-content">
                     <div class="thumb">
-                        <a rel="nofollow" href="http://youtube.com"><i class="fa fa-play"></i></a>
-                        <img src="assets/images/about-video-bg.jpg" alt="">
+                        <img src="assets/images/about-us.jpeg" alt="">
                     </div>
                 </div>
             </div>
