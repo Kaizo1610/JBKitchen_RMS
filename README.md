@@ -116,7 +116,7 @@ The reservation system ensures that customers can effortlessly plan their visits
 #### 7.3 Menu Page
 <p>1. Display all the menu of the restaurant including the menu description.</p> 
 <p>2. The menu can be change by admin in the admin page.</p>
-<img src=".png"></br>
+<img src="Menupage.png"></br>
 
 #### 7.4 Chefs Page
 <p>1. Showing the best chef the restaurant have.</p> 
