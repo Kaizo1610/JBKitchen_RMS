@@ -117,7 +117,9 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-4">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+                        <a href="/" class="logo">
+                            <img src="assets/images/jblwhite.png" style="width:120px;height:100px;">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
