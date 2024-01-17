@@ -104,11 +104,12 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 #### 7.1 Main Page
 
-<p>1. Display image of restaurant</p> 
-<img src=".png">
+<p>1. Display image of restaurant and restuarant trademark.</p> 
+<p>2. Has 'Make Reservation' button that will direct to table reservation.</p>
+<img src="homepage.png">
 
 7.2 Reservation page
-<img src=".png">
+<img src="ReservationPage.png">
 
 
 ### 8.0 Challenges and difficulties during development
