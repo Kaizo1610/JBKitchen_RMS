@@ -51,8 +51,8 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="/home" class="logo">
-                            <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
+                        <a href="/" class="logo">
+                            <img src="assets/images/jbklogo.png" style="width:120px;height:100px;">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
