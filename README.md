@@ -107,6 +107,9 @@ The reservation system ensures that customers can effortlessly plan their visits
 <p>1. Display image of restaurant</p> 
 <img src=".png">
 
+7.2 Reservation page
+<img src=".png">
+
 
 ### 8.0 Challenges and difficulties during development
 <p>1.Problem with mysql xamp where the file was corrupted althoug we have save it keep occur.</p>
