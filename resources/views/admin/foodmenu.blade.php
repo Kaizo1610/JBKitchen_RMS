@@ -69,7 +69,7 @@
                     <td>{{$data->description}}</td>
                     <td><img height="300" width="300" src="/foodimage/{{$data->image}}"></td>
 
-                    <td><a style="color:yellow" href="">Delete</a></td>
+                    <td><a style="color:yellow" href="{{url('/deletemenu',$data->id)}}">Delete</a></td>
 
                 </tr>
 
