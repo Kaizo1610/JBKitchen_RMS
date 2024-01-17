@@ -38,7 +38,7 @@
             </div>
 
             <div>
-                <input style="color:blue" type="submit" value="Save">
+                <input style="color:yellow" type="submit" value="Save">
             </div>
         </form>
 
