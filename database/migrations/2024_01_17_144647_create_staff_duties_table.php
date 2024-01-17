@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('staff_duties', function (Blueprint $table) {
             $table->id();
+            $table->string("name")->nullable;
+            $table->string("role")->nullable;
+            $table->string("shift")->nullable;
             $table->timestamps();
         });
     }

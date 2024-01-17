@@ -57,6 +57,18 @@ Route::get("/viewcreditcard",[AdminController::class,"viewcreditcard"]);
 Route::get("/viewqr",[AdminController::class,"viewqr"]);
 
 
+Route::get("/viewstaff", [AdminController::class,"viewstaff"]);
+
+Route::post("/uploadduty", [AdminController::class,"uploadduty"]);
+
+Route::get("/deleteduty/{id}", [AdminController::class,"deleteduty"]);
+
+Route::get("/updateduty/{id}", [AdminController::class, "updateduty"]);
+
+Route::post("/updatee/{id}", [AdminController::class, "updatee"]);
+
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

@@ -35,6 +35,66 @@ class AdminController extends Controller
 
     }
 
+
+//staff
+
+public function deleteduty($id)
+{
+    $dataa=StaffDuty::find($id);
+
+    $dataa->delete();
+
+    return redirect()->back();
+}
+
+public function updateduty($id)
+{
+    $dataa=StaffDuty::find($id);
+    return view("admin.updateduty", compact("dataa"));
+}
+
+
+    public function viewstaff()
+    {
+        $dataa = StaffDuty::all();
+        return view("admin.viewstaff",compact("dataa"));
+
+    }
+
+    public function uploadduty(Request $request)
+    {
+        $dataa = new StaffDuty;
+
+        $dataa->name = $request -> name;
+        $dataa->role = $request -> role;
+        $dataa->shift = $request -> shift;
+        $dataa->save();
+
+        return redirect()->back();
+
+
+    }
+
+    public function updatee(Request $request, $id)
+    {
+        $dataa=StaffDuty::find($id);
+
+        $dataa->name = $request -> name;
+        $dataa->role = $request -> role;
+        $dataa->shift = $request -> shift;
+        $dataa->save();
+
+        return redirect()->back();
+
+    }
+
+
+
+
+
+
+
+
     //FoodMenu
 
     public function deletemenu($id)
