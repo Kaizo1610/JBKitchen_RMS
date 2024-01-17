@@ -249,19 +249,19 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Orange Juice</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <p>Refreshing beverage made from squeezing oranges. Packed with vitamin C, potassium, and other essential nutrients.</p>
                                                             <div class="price">
-                                                                <h6>$20</h6>
+                                                                <h6>RM7</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Fruit Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/nasi-2.jpeg" alt="">
+                                                            <h4>JB Fried Rice</h4>
+                                                            <p>Special JB fried rice that cooked with quality ingredient and secret recepice.</p>
                                                             <div class="price">
-                                                                <h6>$30</h6>
+                                                                <h6>RM19</h6>
                                                             </div>
                                                         </div>
                                                     </div>
