@@ -58,7 +58,6 @@
                         </ul>
                         <img src="assets/images/akim.jpeg" alt="Chef #3">
                     </div>
-
                     <div class="down-content">
                         <h4>Aiman Akim</h4>
                         <span>Johorian Chef</span>
