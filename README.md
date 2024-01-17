@@ -100,4 +100,9 @@ The reservation system ensures that customers can effortlessly plan their visits
 <img src="WebProjectSD.png">
 
 
+### 7.0 Website Page-JBKitchen_RMS
 
+#### 7.1 Main Page
+
+<p>1. Display image of restaurant</p> </br>
+<img src=".png">
