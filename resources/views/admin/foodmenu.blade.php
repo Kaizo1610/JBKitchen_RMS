@@ -17,6 +17,17 @@
 
     @include("admin.navbar")
 
+    <div>
+        <form>
+
+            <div>
+                <label>Title</label>
+                <input type="text" name="title" placeholder="Write a title" required>
+            </div>
+
+        </form>
+    </div>
+
     </div>
 
     @include("admin.adminscript")
