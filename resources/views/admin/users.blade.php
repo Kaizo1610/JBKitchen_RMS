@@ -4,8 +4,6 @@
     <title></title>
 </head>
 <body>
-    <h1>ADMIN DATA</h1>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,21 +15,35 @@
   <body>
     <div class="container-scroller">
 
-    @include("admin.navbar")
+      @include("admin.navbar")
 
-    <div style="position: relative; top:60px; right: -60px ">
+    <div style="position: relative; top:-700px; right: -350px ">
 
         <table bgcolor="grey" border="3px">
             <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Action</th>
+                <th style="padding: 30px">Name</th>
+                <th style="padding: 30px">Email</th>
+                <th style="padding: 30px">Action</th>
             </tr>
-            <tr>
-                <td>Aiman</td>
-                <td>aiman10@gmail.com</td>
-                <td>Delete</td>
+
+            @foreach($data as $data)
+            <tr align="center">
+                <td>{{data-name}}</td>
+                <td>{{data-email}}</td>
+                <td><a href="" style="color: yellow;">Delete</a></td>
+
+                @if($data->usertype=="0")
+                <td><a href="{{url('/deleteuser',$data->id)}}">Delete</a></td>
+                @else
+                <td><a href="">Not Allowed</a></td>
+
+                @endif
+
             </tr>
+
+            @endforeach
+
+
         </table>
 
     </div>

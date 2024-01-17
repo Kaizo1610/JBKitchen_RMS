@@ -25,6 +25,8 @@ Route::get("/redirects", [AdminController::class,"redirects"]);
 
 Route::get("/users", [AdminController::class,"user"]);
 
+Route::get("/deleteuser/{id}", [AdminController::class,"deleteuser"]);
+
 Route::get("/home", [HomeController::class,"index"]);
 
 Route::get("/viewchef", [AdminController::class,"viewchef"]);

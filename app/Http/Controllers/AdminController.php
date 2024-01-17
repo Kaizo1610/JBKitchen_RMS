@@ -4,17 +4,30 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Models\User;
-
 use App\Models\Food;
 
 use App\Models\Reservation;
 
-
+use App\Models\User;
 
 class AdminController extends Controller
 
 {
+    public function user()
+    {
+        $data=user::all();
+        return view('admin.users',compact('data'));
+
+    }
+
+    public function deleteuser($id)
+    {
+        $data=user::find($id);
+        $data->delete();
+        return redirect()->back();
+
+    }
+
     public function index()
     {
         return view("");
@@ -25,14 +38,9 @@ class AdminController extends Controller
         return view("admin.adminhome");
     }
 
-    public function user()
-    {
-        return view("admin.users");
-    }
-
 
     public function reservation(Request $request)
-{
+    {
     $data = new reservation;
 
         $data->name=$request->name;
@@ -47,7 +55,7 @@ class AdminController extends Controller
 
         return redirect()->back();
 
-}
+    }
 
 public function viewchef()
 {
