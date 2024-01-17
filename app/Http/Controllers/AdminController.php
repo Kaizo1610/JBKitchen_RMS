@@ -12,7 +12,10 @@ use App\Models\User;
 
 class AdminController extends Controller
 
+
 {
+    //Users
+
     public function user()
     {
         $data=user::all();
@@ -27,6 +30,8 @@ class AdminController extends Controller
         return redirect()->back();
 
     }
+
+    //FoodMenu
 
     public function deletemenu($id)
     {
@@ -43,30 +48,31 @@ class AdminController extends Controller
 
     }
 
+    public function update(Request $request, $id )
+    {
+        $data=food::find($id);
+
+        $image = $request->image;
+
+        $imagename = time().'.'. $image -> getClientOriginalExtension();
+
+                $request -> image -> move('foodimage',$imagename);
+
+                $data->image = $imagename;
+                $data->title = $request -> title;
+                $data->price = $request -> price;
+                $data->description = $request -> description;
+                $data->save();
+
+                return redirect()->back();
+
+    }
+
     public function foodmenu()
     {
         $data = food::all();
         return view('admin.foodmenu', compact("data"));
 
-    }
-
-
-
-
-
-
-
-
-
-
-    public function index()
-    {
-        return view("");
-    }
-
-    public function redirects()
-    {
-        return view("admin.adminhome");
     }
 
     public function upload(Request $request)
@@ -89,6 +95,23 @@ class AdminController extends Controller
 
     }
 
+
+
+
+    public function index()
+    {
+        return view("");
+    }
+
+    public function redirects()
+    {
+        return view("admin.adminhome");
+    }
+
+
+
+    //Reservation
+
     public function reservation(Request $request)
     {
     $data = new reservation;
@@ -107,12 +130,21 @@ class AdminController extends Controller
 
     }
 
-public function viewchef()
-{
+    public function viewreservation(Request $request)
+    {
+    $data = reservation::all();
+
+        return view("admin.adminreservation", compact("data"));
+
+    }
 
 
-    return view("admin.adminchef");
-}
+    //Chefs
+
+    public function viewchef()
+    {
+        return view("admin.adminchef");
+    }
 
 
 }
