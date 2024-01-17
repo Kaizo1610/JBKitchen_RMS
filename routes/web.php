@@ -42,6 +42,12 @@ Route::get("/deletemenu/{id}", [AdminController::class,"deletemenu"]);
 
 Route::get("/updateview/{id}", [AdminController::class,"updateview"]);
 
+Route::post("/update/{id}", [AdminController::class,"update"]);
+
+Route::post("/reservation",[AdminController::class,"reservation"]);
+
+Route::get("/viewreservation",[AdminController::class,"viewreservation"]);
+
 
 
 Route::get("/viewchef", [AdminController::class,"viewchef"]);
@@ -60,7 +66,6 @@ Route::get('/loginn', function () {
     return view('loginn');
 });
 
- Route::post("/reservation",[AdminController::class,"reservation"]);
  {
      return view('loginn');
  };
