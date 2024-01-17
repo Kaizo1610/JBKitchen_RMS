@@ -48,6 +48,9 @@ Route::post("/reservation",[AdminController::class,"reservation"]);
 
 Route::get("/viewreservation",[AdminController::class,"viewreservation"]);
 
+Route::get("/viewcreditcard",[AdminController::class,"viewcreditcard"]);
+
+Route::get("/viewqr",[AdminController::class,"viewqr"]);
 
 
 Route::get("/viewchef", [AdminController::class,"viewchef"]);

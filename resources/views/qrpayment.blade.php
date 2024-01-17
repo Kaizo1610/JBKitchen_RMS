@@ -89,17 +89,10 @@ a:hover {
     </div>
 
     <section class="section" id="payment">
-    <div>
-        <h1>Please choose your payment method</h1> <br>
-    </div>
+<h1>JBKitchen Sdn Bhd</h1>
+<br>
+<img src="{{ asset('images/chefs-01.jpg') }}" alt="description of myimage">
 
-    <a href="{{ url('/viewcreditcard') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Credit Card</a>
-
-    <br><br><a>or</a> <br><br>
-
-     <a href="{{ url('/viewqr') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">QR Payment</a>
-
-    </div>
 
 </section>
 
@@ -109,5 +102,3 @@ a:hover {
 
 </body>
 </html>
-
-
