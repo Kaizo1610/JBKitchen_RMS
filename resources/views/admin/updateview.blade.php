@@ -31,7 +31,7 @@
 
             <div>
                 <label>Code No</label>
-                <input style="color:black" type="number" name="codeno" value={{$data->codeno}} required>
+                <input style="color:black" type="text" name="codeno" value={{$data->codeno}} required>
             </div>
 
             <div>

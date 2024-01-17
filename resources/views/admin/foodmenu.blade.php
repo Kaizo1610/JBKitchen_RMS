@@ -30,7 +30,7 @@
 
             <div>
                 <label>Code No</label>
-                <input style="color:black" type="number" name="price" placeholder="Code No" required>
+                <input style="color:black" type="text" name="codeno" placeholder="Code No" required>
             </div>
 
             <div>
