@@ -91,7 +91,7 @@
 
     <!-- ***** Menu Area Starts ***** -->
     <section class="section" id="offers">
-        <div class="container">
+        <div class="container" >
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
