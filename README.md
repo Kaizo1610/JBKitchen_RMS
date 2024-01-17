@@ -133,6 +133,8 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 #### 7.6 Special offer Page
 <p>1. Display the special menu of the week, the menu will be change every week.</p> 
+<p>2. There are three category of meals is being display which are breakfast, lunch and dinner.</p>
+<p>3. The user need to click on the lunch icon if want to see what special menu for lunch.</p>
 <img src="specialofferpage.png"></br>
 
 #### 7.7 Payment Page
