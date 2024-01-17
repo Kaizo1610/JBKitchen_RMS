@@ -153,7 +153,7 @@ public function viewchef()
 
     public function uploadchef(Request $request)
     {
-        $data= new Foodchef;
+        $data= new foodchef;
 
         $image= $request -> image;
 
@@ -161,10 +161,11 @@ public function viewchef()
 
         $request -> image -> move('chefimage',$imagename);
 
-        $data->image = $imagename;
-        $data->name = $request -> title;
-        $data->speciality = $request -> price;
-        $data->save();
+        $data->image=$imagename;
+        $data->name=$request->name;
+        $data->speciality=$request->speciality;
+
+        $data-> save();
 
         return redirect()->back();
 
