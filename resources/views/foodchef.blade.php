@@ -19,11 +19,11 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                         </ul>
-                        <img src="assets/images/chefs-01.jpg" alt="Chef #1">
+                        <img src="assets/images/arash.jpeg" alt="Chef #1">
                     </div>
                     <div class="down-content">
-                        <h4>Randy Walker</h4>
-                        <span>Pastry Chef</span>
+                        <h4>Muhammad Arash</h4>
+                        <span>Head Chef</span>
                     </div>
                 </div>
             </div>
@@ -36,11 +36,11 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-behance"></i></a></li>
                         </ul>
-                        <img src="assets/images/chefs-02.jpg" alt="Chef #2">
+                        <img src="assets/images/badri.jpeg" alt="Chef #2">
                     </div>
                     <div class="down-content">
-                        <h4>David Martin</h4>
-                        <span>Cookie Chef</span>
+                        <h4>Badri Mahazir</h4>
+                        <span>Asst. Head Chef</span>
                     </div>
                 </div>
             </div>
@@ -53,11 +53,11 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-google"></i></a></li>
                         </ul>
-                        <img src="assets/images/chefs-03.jpg" alt="Chef #3">
+                        <img src="assets/images/akim.jpeg" alt="Chef #3">
                     </div>
                     <div class="down-content">
-                        <h4>Peter Perkson</h4>
-                        <span>Pancake Chef</span>
+                        <h4>Aiman Akim</h4>
+                        <span>Johorian Chef</span>
                     </div>
                 </div>
             </div>
