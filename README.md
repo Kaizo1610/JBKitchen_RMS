@@ -122,7 +122,7 @@ The reservation system ensures that customers can effortlessly plan their visits
 <p>1. Showing the best chef the restaurant have.</p> 
 <img src="chefpage.png"></br>
 
-7.5 Reservation page
+7.5 Contact Us page
 <p>1. Display our contacts such as phone numbers and emails.</p> 
 <p>2. Here customers can make their table reservation and food reservation.</p>
 <p>3. Customers can fill their reservation details in the text box.</p>
@@ -135,6 +135,15 @@ The reservation system ensures that customers can effortlessly plan their visits
 <p>1. Display the special menu of the week, the menu will be change every week.</p> 
 <img src="specialofferpage.png"></br>
 
+#### 7.7 Payment Page
+<p>1. After the customer fill up their reservation details and click make reservation, they will be brought to payment page.</p> 
+<p>2. Customer can choose whether they want to pay with a credit card or using QR payment.</p>
+<img src="paymentpage.png"></br>
+<img src="creditcard.png"></br>
+<img src="qrpayment.png"></br>
+
+
 ### 8.0 Challenges and difficulties during development
-<p>1.Problem with mysql xamp where the file was corrupted althoug we have save it keep occur.</p>
-<p>2.Miscommunication occurs between us.</p>
+<p>1. Problem with mysql xamp where the file was corrupted althoug we have save it keep occur.</p>
+<p>2. Miscommunication often occurs between us.</p>
+<p>3. Hard to keep following the mockups as many new features occur during development process.</p>
