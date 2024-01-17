@@ -139,17 +139,12 @@ class AdminController extends Controller
     }
 
 
+    //Chefs
 
-
-
-
-
-public function viewchef()
-{
-
-
-    return view("admin.adminchef");
-}
+    public function viewchef()
+    {
+        return view("admin.adminchef");
+    }
 
 
 }
