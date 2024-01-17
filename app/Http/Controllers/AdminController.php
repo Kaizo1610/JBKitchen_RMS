@@ -64,7 +64,7 @@ class AdminController extends Controller
 
                 $data->image = $imagename;
                 $data->title = $request -> title;
-                $data->price = $request -> price;
+                $data->codeno = $request -> codeno;
                 $data->description = $request -> description;
                 $data->save();
 
@@ -91,7 +91,7 @@ class AdminController extends Controller
 
                 $data->image = $imagename;
                 $data->title = $request -> title;
-                $data->price = $request -> price;
+                $data->codeno = $request -> codeno;
                 $data->description = $request -> description;
                 $data->save();
 

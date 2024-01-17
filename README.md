@@ -51,8 +51,8 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 #### 4.2 Admin Page
 #### 4.2.1 Update duty 
-<p>1.Assign a duty for staff by filling the form and clicking the submit button to save.</p>
-<p>2.Also can remove staff by clicking the delete button. </p>
+<p>1.Assign a duty for staff in the database.</p>
+<p>2.Also can remove duty by clicking the delete button. </p>
 
 #### 4.2.2 Update menu 
 <p>1.Insert a new menu into database to display  in website.</p>
@@ -101,16 +101,59 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 
 ### 7.0 Website Page-JBKitchen_RMS
-
+</br>
 
 #### 7.1 Main Page
 <p>1. Display image of restaurant and restuarant trademark.</p> 
 <p>2. Has 'Make Reservation' button that will direct to table reservation.</p>
-<img src="homepage.png">
+<img src="homepage.png"></br>
 
-7.2 Reservation page
+#### 7.2 About us Page
+<p>1. Tell about the restaurant background, what our value proposition.</p> 
+<p>2. Highlighting the best menu in the restaurant.</p>
+<img src="aboutuspage.png"></br>
+
+#### 7.3 Menu Page
+<p>1. Display all the menu of the restaurant including the menu description.</p> 
+<p>2. The menu can be change by admin in the admin page.</p>
+<img src=".png"></br>
+
+#### 7.4 Chefs Page
+<p>1. Showing the best chef the restaurant have.</p> 
+<img src="chefpage.png"></br>
+
+7.5 Contact Us page
+<p>1. Display our contacts such as phone numbers and emails.</p> 
+<p>2. Here customers can make their table reservation and food reservation.</p>
+<p>3. Customers can fill their reservation details in the text box.</p>
+<p>4. Customers also can choose their preferred date and time of the reservation here.</p> 
+<p>5. Customers can order the food by inputting the food code into the bottom text box.</p>
+<p>6. Has 'Make a Reservation' button that will direct to the payment page.</p> 
 <img src="ReservationPage.png">
+
+#### 7.6 Special offer Page
+<p>1. Display the special menu of the week, the menu will be change every week.</p> 
+<p>2. There are three category of meals is being display which are breakfast, lunch and dinner.</p>
+<p>3. The user need to click on the lunch icon if want to see what special menu for lunch.</p>
+<img src="specialofferpage.png"></br>
+
+#### 7.7 Payment Page
+<p>1. After the customer fill up their reservation details and click make reservation, they will be brought to payment page.</p> 
+<p>2. Customer can choose whether they want to pay with a credit card or using QR payment.</p>
+<img src="paymentpagenew.png"></br>
+<img src="creditcard.png"></br>
+<img src="qrpayment.png"></br>
+
+#### 7.8 Admin Page
+<p>1. This page allow admin to update, add and delete menu in the database that wiill be displayed in the website.</p> 
+<p>2. This page allow admin to update, add and delete staff duty in the database that wiill be displayed in the website.</p> 
+<p>3. Admin can view the registered staff and the reservation that have been made by the customer including the reservation detail.</p> 
+<img src=".png"></br>
 
 
 ### 8.0 Challenges and difficulties during development
-<p>1.Problem with mysql xamp where the file was corrupted althoug we have save it keep occur.</p>
+<p>1. Problem with mysql xamp where the file was corrupted although we have solve, it keep occur.</p>
+<p>2. Miscommunication often occurs between us.</p>
+<p>3. Hard to keep following the mockups as many new features occur during development process.</p>
+<p>4. Use most of the time to solve the technical error instead working on page development like error with 'npm run dev' command.</p>
+<p>5. Solving merge conflicts can be a hassle sometime.</p>
