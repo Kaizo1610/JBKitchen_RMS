@@ -63,7 +63,7 @@
                         So come join us at JB Kitchen, and experience the taste of Johor that's truly unforgettable.</p>
                     <div class="row">
                         <div class="col-4">
-                            <img src="assets/images/laksajohor.jpg" alt="">
+                            <img src="assets/images/laksajohor.jpeg" alt="">
                         </div>
                         <div class="col-4">
                             <img src="assets/images/nasi-ambeng.jpg" alt="">
