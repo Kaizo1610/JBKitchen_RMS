@@ -28,14 +28,13 @@
 
             @foreach($data as $data)
             <tr align="center">
-                <td>{{data-name}}</td>
-                <td>{{data-email}}</td>
-                <td><a href="" style="color: yellow;">Delete</a></td>
+                <td>{{$data->name}}</td>
+                <td>{{$data->email}}</td>
 
                 @if($data->usertype=="0")
-                <td><a href="{{url('/deleteuser',$data->id)}}">Delete</a></td>
+                <td><a href="{{url('/deleteuser',$data->id)}}" style="color: yellow;">Delete</a></td>
                 @else
-                <td><a href="">Not Allowed</a></td>
+                <td><a >Not Allowed</a></td>
 
                 @endif
 
