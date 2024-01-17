@@ -65,6 +65,7 @@
                 </div>
             </div>
 
+
             @foreach($data2 as $data2)
 
             <div class="col-lg-4">
