@@ -150,3 +150,4 @@ The reservation system ensures that customers can effortlessly plan their visits
 <p>2. Miscommunication often occurs between us.</p>
 <p>3. Hard to keep following the mockups as many new features occur during development process.</p>
 <p>4. Use most of the time to solve the technical error instead working on page development like error with 'npm run dev' command.</p>
+<p>5. Solving merging conflicts can be a hassle sometime.</p>
