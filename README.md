@@ -144,6 +144,12 @@ The reservation system ensures that customers can effortlessly plan their visits
 <img src="creditcard.png"></br>
 <img src="qrpayment.png"></br>
 
+#### 7.8 Admin Page
+<p>1. This page allow admin to update, add and delete menu in the database that wiill be displayed in the website.</p> 
+<p>2. This page allow admin to update, add and delete staff duty in the database that wiill be displayed in the website.</p> 
+<p>3. Admin can view the registered staff and the reservation that have been made by the customer including the reservation detail.</p> 
+<img src=".png"></br>
+
 
 ### 8.0 Challenges and difficulties during development
 <p>1. Problem with mysql xamp where the file was corrupted although we have solve, it keep occur.</p>
