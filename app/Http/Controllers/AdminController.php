@@ -12,7 +12,10 @@ use App\Models\User;
 
 class AdminController extends Controller
 
+
 {
+    //Users
+
     public function user()
     {
         $data=user::all();
@@ -27,6 +30,8 @@ class AdminController extends Controller
         return redirect()->back();
 
     }
+
+    //FoodMenu
 
     public function deletemenu($id)
     {
@@ -70,20 +75,6 @@ class AdminController extends Controller
 
     }
 
-
-
-
-
-    public function index()
-    {
-        return view("");
-    }
-
-    public function redirects()
-    {
-        return view("admin.adminhome");
-    }
-
     public function upload(Request $request)
     {
         $data = new food;
@@ -104,6 +95,23 @@ class AdminController extends Controller
 
     }
 
+
+
+
+    public function index()
+    {
+        return view("");
+    }
+
+    public function redirects()
+    {
+        return view("admin.adminhome");
+    }
+
+
+
+    //Reservation
+
     public function reservation(Request $request)
     {
     $data = new reservation;
@@ -121,6 +129,18 @@ class AdminController extends Controller
         return redirect()->back();
 
     }
+
+    public function viewreservation(Request $request)
+    {
+    $data = reservation::all();
+
+        return view("admin.adminreservation", compact("data"));
+
+    }
+
+
+
+
 
 
 
