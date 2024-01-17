@@ -1,4 +1,4 @@
-{{-- <x-app-layout>
+<x-app-layout>
 
 </x-app-layout>
 
@@ -15,8 +15,39 @@
 
     @include("admin.navbar")
 
-    <h1>Admin Chef</h1>
+        <div style="position: relative; top:-700px; right: -350px ">
+        <form action="{{url('/uploadchef')}}" method="post" enctype="multipart/form-data">
 
+            @csrf
+
+            <div>
+
+                <label>Name</label>
+                <input style="color:black" type="text" name="name" placeholder="Enter name" required>
+
+            </div>
+
+            <div>
+
+                <label>Speciality</label>
+                <input style="color:black" type="text" name="name" placeholder="Enter the speciality" required>
+
+            </div>
+
+            <div>
+
+                <input type="file" name="image" required>
+
+            </div>
+
+            <div>
+
+                <input style="color:yellow" type="submit" name="name" value="Save">
+
+            </div>
+
+        </form>
+        </div>
 
     </div>
 
@@ -24,4 +55,4 @@
 
 
   </body>
-</html> --}}
+</html>

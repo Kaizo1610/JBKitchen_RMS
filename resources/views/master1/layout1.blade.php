@@ -51,8 +51,8 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="/home" class="logo">
-                            <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
+                        <a href="/" class="logo">
+                            <img src="assets/images/jbklogo.png" style="width:120px;height:100px;">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -117,14 +117,14 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
                 <div class="col-lg-4">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+                        <a href="/" class="logo">
+                            <img src="assets/images/jblwhite.png" style="width:120px;height:100px;">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright JB Kitchen Co.
-
-                        <br>Design: TemplateMo</p>
+                        <p>© Copyright JB Kitchen Co.</p>
                     </div>
                 </div>
             </div>

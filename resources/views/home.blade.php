@@ -95,7 +95,7 @@
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
-                        <h6>Klassy Week</h6>
+                        <h6>JB Week</h6>
                         <h2>This Week’s Special Meal Offers</h2>
                     </div>
                 </div>
@@ -127,9 +127,9 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
                                                             <h4>Fresh Chicken Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <p>Cooked chicken breast paired with crisp mixed greens and juicy cherry tomatoes creating a medley of flavors and textures.</p>
                                                             <div class="price">
-                                                                <h6>$10.50</h6>
+                                                                <h6>RM13</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -137,9 +137,9 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Orange Juice</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <p>Refreshing beverage made from squeezing oranges. Packed with vitamin C, potassium, and other essential nutrients.</p>
                                                             <div class="price">
-                                                                <h6>$8.50</h6>
+                                                                <h6>RM7</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -147,9 +147,9 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
                                                             <h4>Fruit Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <p>A delightful fruit salad, gather an assortment of fresh, ripe fruits. </p>
                                                             <div class="price">
-                                                                <h6>$9.90</h6>
+                                                                <h6>RM12</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -163,29 +163,29 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
                                                             <h4>Eggs Omelette</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <p>Lightly beaten and skillfully cooked, transforms into a delicate, golden pillow that encases a medley of fillings.</p>
                                                             <div class="price">
-                                                                <h6>$6.50</h6>
+                                                                <h6>RM9</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Dollma Pire</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/nasilemak.jpeg" alt="">
+                                                            <h4>Nasi Lemak</h4>
+                                                            <p>Fragrant rice cooked in coconut milk, served with sambal, roasted peanuts, sliced cucumbers and egg.</p>
                                                             <div class="price">
-                                                                <h6>$5.00</h6>
+                                                                <h6>RM19</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Omelette & Cheese</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/roti-bakar.jpg" alt="">
+                                                            <h4>Toasted Bread</h4>
+                                                            <p>Delightfully crisp and golden offers warmth and satisfying crunch.</p>
                                                             <div class="price">
-                                                                <h6>$4.10</h6>
+                                                                <h6>RM5</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -201,31 +201,31 @@
                                                 <div class="left-list">
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-04.png" alt="">
-                                                            <h4>Eggs Omelette</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/laksajohor.jpeg" alt="">
+                                                            <h4>Laksa Johor</h4>
+                                                            <p>Our unique laksa spaghetti-like noodles bathed in a luxurious coconut milk-based broth, infused with spices and herbs.</p>
                                                             <div class="price">
-                                                                <h6>$14</h6>
+                                                                <h6>RM17</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-05.png" alt="">
-                                                            <h4>Dollma Pire</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/nasi-ambeng.jpg" alt="">
+                                                            <h4>Nasi Ambeng</h4>
+                                                            <p>Our nasi ambeng very delicious with the rich aroma of rendang mingling with the fresh herbs.</p>
                                                             <div class="price">
-                                                                <h6>$18</h6>
+                                                                <h6>RM19</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-06.png" alt="">
-                                                            <h4>Omelette & Cheese</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/asampedas-2.jpeg" alt="">
+                                                            <h4>Asam Pedas</h4>
+                                                            <p>The vibrant reddish-orange sauce, glistening with oil and chili flecks.</p>
                                                             <div class="price">
-                                                                <h6>$22</h6>
+                                                                <h6>RM22</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -237,11 +237,11 @@
                                                 <div class="right-list">
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Fresh Chicken Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/lontong.jpeg" alt="">
+                                                            <h4>Lontong Pecal</h4>
+                                                            <p>2 pieces of impit rice, A small bowl of lodeh sauce and pecal sauce.</p>
                                                             <div class="price">
-                                                                <h6>$10</h6>
+                                                                <h6>RM10</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -249,19 +249,19 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Orange Juice</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <p>Refreshing beverage made from squeezing oranges. Packed with vitamin C, potassium, and other essential nutrients.</p>
                                                             <div class="price">
-                                                                <h6>$20</h6>
+                                                                <h6>RM7</h6>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-03.png" alt="">
-                                                            <h4>Fruit Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <img src="assets/images/nasi-2.jpeg" alt="">
+                                                            <h4>JB Fried Rice</h4>
+                                                            <p>Special JB fried rice that cooked with quality ingredient and secret recepice.</p>
                                                             <div class="price">
-                                                                <h6>$30</h6>
+                                                                <h6>RM19</h6>
                                                             </div>
                                                         </div>
                                                     </div>

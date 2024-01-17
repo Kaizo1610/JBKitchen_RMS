@@ -10,13 +10,22 @@ use App\Models\User;
 
 use App\Models\Food;
 
+use App\Models\Foodchef;
+
 class HomeController extends Controller
 {
+    //FoodMenu & Chefs
+
     public function index()
     {
         $data=food::all();
-        return view("home", compact("data"));
+
+        $data2=foodchef::all();
+
+
+        return view("home", compact("data", "data2"));
     }
+
 
     public function redirects()
     {
@@ -33,5 +42,8 @@ class HomeController extends Controller
             return view('home', compact('data'));
         }
     }
+
+
+
 
 }
