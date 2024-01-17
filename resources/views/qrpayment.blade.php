@@ -93,7 +93,7 @@ a:hover {
             <h1>JBKitchen Sdn Bhd</h1> <br>
         </div>
 
-<img src="{{ asset('images/chefs-01.jpg') }}" alt="description of myimage">
+<img src="{{ url('images/qr-example.jpg') }}" alt="description of myimage">
 
 
 </section>
