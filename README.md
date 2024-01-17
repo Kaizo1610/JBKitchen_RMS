@@ -123,6 +123,12 @@ The reservation system ensures that customers can effortlessly plan their visits
 <img src="chefpage.png"></br>
 
 7.5 Reservation page
+<p>1. Display our contacts such as phone numbers and emails.</p> 
+<p>2. Here customers can make their table reservation and food reservation.</p>
+<p>3. Customers can fill their reservation details in the text box.</p>
+<p>4. Customers also can choose their preferred date and time of the reservation here.</p> 
+<p>5. Customers can order the food by inputting the food code into the bottom text box.</p>
+<p>6. Has 'Make a Reservation' button that will direct to the payment page.</p> 
 <img src="ReservationPage.png">
 
 #### 7.6 Special offer Page
