@@ -91,7 +91,7 @@ a:hover {
     <section class="section" id="payment">
         <div>
             <h1>JBKitchen Sdn Bhd</h1> <br>
-            <img src="{{ asset('images/qr-example.jpg') }}" alt="qr"width="500" height="600">
+            <img src="{{ asset('assets/images/qr-example.jpg') }}" alt="qr" width="500" height="600">
         </div>
 
 
