@@ -16,7 +16,9 @@
     @include("admin.navbar")
 
         <div style="position: relative; top:-700px; right: -350px ">
-        <form>
+        <form action="{{url('/uploadchef')}}" method="post" enctype="multipart/form-data">
+
+            @csrf
 
             <div>
 
