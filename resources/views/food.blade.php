@@ -72,7 +72,7 @@
                         </div>
                     </div> --}}
 
-                    <div class="item">
+                    {{-- <div class="item">
                         <div class='card card5'>
                             <div class="price"><h6>$8.50</h6></div>
                             <div class='info'>
@@ -96,7 +96,7 @@
                               </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
 
                 </div>
