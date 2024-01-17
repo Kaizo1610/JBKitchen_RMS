@@ -9,6 +9,7 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-lg-4">
                 <div class="chef-item">
@@ -27,6 +28,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4">
                 <div class="chef-item">
                     <div class="thumb">
@@ -44,6 +46,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-lg-4">
                 <div class="chef-item">
                     <div class="thumb">
@@ -55,12 +58,37 @@
                         </ul>
                         <img src="assets/images/akim.jpeg" alt="Chef #3">
                     </div>
+
                     <div class="down-content">
                         <h4>Aiman Akim</h4>
                         <span>Johorian Chef</span>
                     </div>
                 </div>
             </div>
+
+            @foreach($data2 as $data2)
+
+            <div class="col-lg-4">
+                <div class="chef-item">
+                    <div class="thumb">
+                        <div class="overlay"></div>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        </ul>
+                        <img src="/chefimage/{{$data2->image}}" alt="Chef #4">
+                    </div>
+                    <div class="down-content">
+                        <h4>{{$data2->name}}</h4>
+                        <span>{{$data2->speciality}}</span>
+                    </div>
+                </div>
+            </div>
+
+            @endforeach
+
+
         </div>
     </div>
 </section>
