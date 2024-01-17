@@ -122,9 +122,12 @@ The reservation system ensures that customers can effortlessly plan their visits
 <p>1. Showing the best chef the restaurant have.</p> 
 <img src="chefpage.png"></br>
 
-7.2 Reservation page
+7.5 Reservation page
 <img src="ReservationPage.png">
 
+#### 7.6 Special offer Page
+<p>1. Display the special menu of the week, the menu will be change every week.</p> 
+<img src="specialofferpage.png"></br>
 
 ### 8.0 Challenges and difficulties during development
 <p>1.Problem with mysql xamp where the file was corrupted althoug we have save it keep occur.</p>
