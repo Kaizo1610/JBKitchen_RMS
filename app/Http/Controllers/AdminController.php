@@ -171,9 +171,20 @@ public function viewchef()
     }
 
 
+    public function viewcreditcard()
+    {
 
 
+        return view("creditcard");
+    }
 
+
+    public function viewqr()
+    {
+
+
+        return view("qrpayment");
+    }
 
 
 
