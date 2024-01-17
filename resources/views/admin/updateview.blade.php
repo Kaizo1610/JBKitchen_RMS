@@ -30,8 +30,8 @@
             </div>
 
             <div>
-                <label>Price</label>
-                <input style="color:black" type="number" name="price" value={{$data->price}} required>
+                <label>Code No</label>
+                <input style="color:black" type="text" name="codeno" value={{$data->codeno}} required>
             </div>
 
             <div>

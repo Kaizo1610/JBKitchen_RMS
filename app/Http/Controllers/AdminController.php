@@ -124,7 +124,7 @@ public function updateduty($id)
 
                 $data->image = $imagename;
                 $data->title = $request -> title;
-                $data->price = $request -> price;
+                $data->codeno = $request -> codeno;
                 $data->description = $request -> description;
                 $data->save();
 
@@ -151,7 +151,7 @@ public function updateduty($id)
 
                 $data->image = $imagename;
                 $data->title = $request -> title;
-                $data->price = $request -> price;
+                $data->codeno = $request -> codeno;
                 $data->description = $request -> description;
                 $data->save();
 
