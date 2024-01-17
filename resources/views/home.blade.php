@@ -10,6 +10,7 @@
                         <div class="inner-content">
                             <h4>JBKitchen</h4>
                             <h6>Eat Like A King</h6>
+                            <h6>Savor Like A Sultan</h6>
                             <div class="main-white-button scroll-to-section">
                                 <a href="#reservation">Make A Reservation</a>
                             </div>
