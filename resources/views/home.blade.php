@@ -23,21 +23,21 @@
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-01.jpg" alt="">
+                                <img src="assets/images/slide-01.jpeg" alt="">
                             </div>
                           </div>
                           <!-- // Item -->
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-02.jpg" alt="">
+                                <img src="assets/images/about-us.jpeg" alt="">
                             </div>
                           </div>
                           <!-- // Item -->
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-03.jpg" alt="">
+                                <img src="assets/images/slide-03.jpeg" alt="">
                             </div>
                           </div>
                           <!-- // Item -->
