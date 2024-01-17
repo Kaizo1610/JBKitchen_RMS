@@ -89,8 +89,10 @@ a:hover {
     </div>
 
     <section class="section" id="payment">
-<h1>JBKitchen Sdn Bhd</h1>
-<br>
+        <div>
+            <h1>JBKitchen Sdn Bhd</h1> <br>
+        </div>
+
 <img src="{{ asset('images/chefs-01.jpg') }}" alt="description of myimage">
 
 
