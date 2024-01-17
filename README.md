@@ -102,8 +102,8 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 ### 7.0 Website Page-JBKitchen_RMS
 
-#### 7.1 Main Page
 
+#### 7.1 Main Page
 <p>1. Display image of restaurant and restuarant trademark.</p> 
 <p>2. Has 'Make Reservation' button that will direct to table reservation.</p>
 <img src="homepage.png">
