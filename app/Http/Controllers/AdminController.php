@@ -12,6 +12,8 @@ use App\Models\User;
 
 use App\Models\Foodchef;
 
+use App\Models\StaffDuty;
+
 class AdminController extends Controller
 
 
@@ -98,8 +100,6 @@ class AdminController extends Controller
     }
 
 
-
-
     public function index()
     {
         return view("");
@@ -170,6 +170,10 @@ public function viewchef()
         return redirect()->back();
 
     }
+
+
+
+
 
 
     public function viewcreditcard()
