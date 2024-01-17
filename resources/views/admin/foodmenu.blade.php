@@ -29,8 +29,8 @@
             </div>
 
             <div>
-                <label>Price</label>
-                <input style="color:black" type="number" name="price" placeholder="Price" required>
+                <label>Code No</label>
+                <input style="color:black" type="number" name="price" placeholder="Code No" required>
             </div>
 
             <div>
