@@ -146,18 +146,18 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 #### 7.8 Register/Login Page
 <p>1. Showing the best chef the restaurant have.</p> 
-<img src="loginpage1.png"></br>
-<img src="loginpage2.png"></br>
+<img src="loginpage1.jpeg"></br>
+<img src="loginpage2.jpeg"></br>
 
 #### 7.9 Admin Page
 <p>1. This page allow admin to update, add and delete menu in the database that wiill be displayed in the website.</p> 
 <p>2. This page allow admin to update, add and delete staff duty in the database that wiill be displayed in the website.</p> 
 <p>3. Admin can view the registered staff and the reservation that have been made by the customer including the reservation detail.</p> 
-<img src="adminpage1.png"></br>
-<img src="adminpage2.png"></br>
-<img src="adminpage3.png"></br>
-<img src="adminpage4.png"></br>
-<img src="adminpage5.png"></br>
+<img src="adminpage1.jpeg"></br>
+<img src="adminpage2.jpeg"></br>
+<img src="adminpage3.jpeg"></br>
+<img src="adminpage4.jpeg"></br>
+<img src="adminpage5.jpeg"></br>
 
 
 ### 8.0 Challenges and difficulties during development
