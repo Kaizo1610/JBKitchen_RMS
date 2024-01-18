@@ -15,6 +15,10 @@
 
     @include("admin.navbar")
 
+    <div style="position: relative; top:-700px; right: -350px ">
+        <h1>Welcome to Staff Homepage</h1>
+
+    </div>
     </div>
 
     @include("admin.adminscript")
