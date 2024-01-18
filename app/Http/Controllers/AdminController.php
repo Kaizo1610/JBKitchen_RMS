@@ -213,7 +213,7 @@ public function viewchef()
 
     public function uploadchef(Request $request)
     {
-        $data= new foodchef;
+        $data= new Foodchef;
 
         $image= $request -> image;
 

@@ -30,7 +30,7 @@
             <div>
 
                 <label>Speciality</label>
-                <input style="color:black" type="text" name="name" placeholder="Enter the speciality" required>
+                <input style="color:black" type="text" name="speciality" placeholder="Enter the speciality" required>
 
             </div>
 
@@ -42,7 +42,7 @@
 
             <div>
 
-                <input style="color:yellow" type="submit" name="name" value="Save">
+                <input style="color:yellow" type="submit" value="Save">
 
             </div>
 
