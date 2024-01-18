@@ -46,7 +46,7 @@
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-google"></i></a></li>
                     </ul>
-                    <img src="assets/images/chefs-01.jpg" alt="Chef #3">
+                    <img src="assets/images/johan.jpg" alt="Chef #3">
                 </div>
                 <div class="down-content">
                     <h4>Johan</h4>
