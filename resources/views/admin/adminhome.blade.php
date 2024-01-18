@@ -18,6 +18,44 @@
     <div style="position: relative; top:-700px; right: -350px ">
         <h1>Welcome to Staff Homepage</h1>
 
+        <div class="row">
+        <div class="col-lg-4">
+            <div class="chef-item">
+                <div class="thumb">
+                    <div class="overlay"></div>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    </ul>
+                    <img src="assets/images/fawwaz.jpeg" alt="Chef #3">
+                </div>
+                <div class="down-content">
+                    <h4>Fawwaz</h4>
+                    <span>Barista Chef</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="chef-item">
+                <div class="thumb">
+                    <div class="overlay"></div>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    </ul>
+                    <img src="assets/images/chefs-01.jpg" alt="Chef #3">
+                </div>
+                <div class="down-content">
+                    <h4>Johan</h4>
+                    <span>Kitchen Helper</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
     </div>
     </div>
 
