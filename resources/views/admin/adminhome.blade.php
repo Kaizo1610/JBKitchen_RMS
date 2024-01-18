@@ -29,7 +29,7 @@
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa fa-google"></i></a></li>
                     </ul>
-                    <img height="100px" width="400px" src="assets/images/fawwaz1.jpg" alt="Chef #3">
+                    <img height="100px" width="300px" src="assets/images/fawwaz1.jpg" alt="Chef #3">
                 </div>
                 <div class="down-content">
                     <h4>Fawwaz</h4>
