@@ -15,7 +15,7 @@
 
     @include("admin.navbar")
 
-    <div style="position: relative; top:-700px; right: -350px ">
+    <div style="position: relative; top:-600px; right: -350px ">
 
         <table bgcolor="grey" border="2px">
 

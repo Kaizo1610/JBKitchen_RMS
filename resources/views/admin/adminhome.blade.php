@@ -15,7 +15,7 @@
 
     @include("admin.navbar")
 
-    <div style="position: relative; top:-700px; right: -350px ">
+    <div style="position: relative; top:-650px; right: -350px ">
         <h1>Welcome to Staff Homepage</h1>
         <h2>Other staffs</h2>
 

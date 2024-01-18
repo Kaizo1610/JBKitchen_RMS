@@ -1,3 +1,7 @@
+<x-app-layout>
+
+</x-app-layout>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +21,7 @@
 
       @include("admin.navbar")
 
-    <div style="position: relative; top:-700px; right: -350px ">
+    <div style="position: relative; top:-600px; right: -350px ">
 
         <table bgcolor="grey" border="3px">
             <tr>
