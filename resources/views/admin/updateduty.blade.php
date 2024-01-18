@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
 
+    <link rel="stylesheet" href="{{ resources('css/adminstyle.css') }}">
+
+
     <base href ="/public">
 
     @include("admin.admincss")
