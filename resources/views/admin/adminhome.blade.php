@@ -56,25 +56,7 @@
             </div>
         </div>
 
-        <div class="col-lg-4">
-            <div class="chef-item">
-                <div class="thumb">
-                    <div class="overlay"></div>
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google"></i></a></li>
-                    </ul>
-                    <img height="100px" width="400px" src="assets/images/chefs-02.jpg" alt="Chef #3">
-                </div>
-                <div class="down-content">
-                    <h4>Alex</h4>
-                    <span>Customer Service</span>
-                </div>
-            </div>
-        </div>
-
-        </div>
+    </div>
 
     </div>
     </div>
