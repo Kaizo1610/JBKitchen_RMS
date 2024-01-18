@@ -56,7 +56,6 @@ Route::get("/viewcreditcard",[AdminController::class,"viewcreditcard"]);
 
 Route::get("/viewqr",[AdminController::class,"viewqr"]);
 
-
 Route::get("/viewstaff", [AdminController::class,"viewstaff"]);
 
 Route::post("/uploadduty", [AdminController::class,"uploadduty"]);
