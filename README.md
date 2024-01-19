@@ -160,14 +160,14 @@ The reservation system ensures that customers can effortlessly plan their visits
 <p>1. This page allow admin to update, add and delete menu in the database that wiill be displayed in the website.</p> 
 <p>2. This page allow admin to update, add and delete staff duty in the database that wiill be displayed in the website.</p> 
 <p>3. Admin can view the registered staff and the reservation that have been made by the customer including the reservation detail.</p> 
-<img src="adminpage1.png"></br>
-<img src="adminpage2.png"></br>
-<img src="adminpage3.png"></br>
-<img src="adminpage4.png"></br>
-<img src="adminpage5.png"></br>
-<img src="adminpage6.png"></br>
-<img src="adminpage7.png"></br>
-<img src="adminpage8.png"></br>
+<img src="admin1.png"></br>
+<img src="admin2.png"></br>
+<img src="admin3.png"></br>
+<img src="admin4.png"></br>
+<img src="admin5.png"></br>
+<img src="admin6.png"></br>
+<img src="admin7.png"></br>
+<img src="admin8.png"></br>
 
 
 ### 8.0 Challenges and difficulties during development
