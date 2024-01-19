@@ -63,6 +63,11 @@ The reservation system ensures that customers can effortlessly plan their visits
 
 #### 4.2.4 View registerd user(staff) 
 <p>1.Monitor staff that have been register/login into website.</p>
+<p>1.Remove the staffs if it is necessary.</p>
+
+#### 4.2.5 Update Chefs
+<p>1.Insert a new chef into database to display  in website.</p>
+<p>2.Also can remove chefs by clicking the delete button. </p>
 </br></br>
 
 #### 4.3 About page
@@ -160,6 +165,8 @@ The reservation system ensures that customers can effortlessly plan their visits
 <img src="adminpage3.jpeg"></br>
 <img src="adminpage4.jpeg"></br>
 <img src="adminpage5.jpeg"></br>
+<img src="adminpage6.jpeg"></br>
+<img src="adminpage7.jpeg"></br>
 
 
 ### 8.0 Challenges and difficulties during development
