@@ -124,8 +124,8 @@
                     <th style="padding: 30px">Name</th>
                     <th style="padding: 30px">Role</th>
                     <th style="padding: 30px">Shift</th>
-                    <th style="padding: 30px">1st Action</th>
-                    <th style="padding: 30px">2nd Action</th>
+                    <th style="padding: 30px">Remove</th>
+                    <th style="padding: 30px">Update</th>
 
                 </tr>
 

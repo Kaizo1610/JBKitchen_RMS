@@ -12,8 +12,8 @@
     <style>
         body {
           font-family: 'Arial', sans-serif;
-          background-color: #f0f0f0; /* Set your desired background color */
-          color: white; /* Set text color to white */
+          background-color: #f0f0f0;
+          color: white;
         }
 
         .container-scroller {
@@ -22,7 +22,7 @@
 
         form {
           margin-top: 10px;
-          color: white; /* Set form text color to white */
+          color: white;
         }
 
         form div {
@@ -50,18 +50,18 @@
         table {
           width: 70%;
           margin-top: 20px;
+          text-align: center;
           border-collapse: collapse;
         }
 
         th, td {
           padding: 15px;
-          text-align: left;
           border-bottom: 1px solid #ddd;
         }
 
         th {
-          background-color: black;
-          color: white;
+          background-color: lightseagreen;
+          color: black;
         }
 
         img {
@@ -71,7 +71,7 @@
 
         a {
           text-decoration: none;
-          color: white; /* Set link color to white */
+          color: white;
         }
 
         a:hover {
