@@ -77,7 +77,7 @@
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-behance"></i></a></li>
                         </ul>
-                        <img src="/chefimage/{{$data2->image}}" alt="Chef #4">
+                        <img height=500px width="300px" src="/chefimage/{{$data2->image}}" alt="Chef #4">
                     </div>
                     <div class="down-content">
                         <h4>{{$data2->name}}</h4>

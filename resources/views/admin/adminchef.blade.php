@@ -62,8 +62,8 @@
         }
 
         img {
-          max-width: 100px;
-          max-height: 100px;
+          max-width: 300px;
+          max-height: 300px;
         }
 
         a {
