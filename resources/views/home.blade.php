@@ -289,7 +289,7 @@
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-03.png" alt="">
+                                                            <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Orange Juice</h4>
                                                             <p>Refreshing beverage made from squeezing oranges. Packed with vitamin C, potassium, and other essential nutrients.</p>
                                                             <div class="price">
@@ -299,7 +299,7 @@
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
-                                                            <img src="assets/images/tab-item-02.png" alt="">
+                                                            <img src="assets/images/tab-item-01.png" alt="">
                                                             <h4>Fruit Salad</h4>
                                                             <p>A delightful fruit salad, gather an assortment of fresh, ripe fruits. </p>
                                                             <div class="price">
