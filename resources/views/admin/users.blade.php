@@ -13,6 +13,76 @@
 <html lang="en">
   <head>
 
+    <style>
+        body {
+          font-family: 'Arial', sans-serif;
+          background-color: #f0f0f0;
+          color: white;
+        }
+
+        .container-scroller {
+          position: relative;
+        }
+
+        form {
+          margin-top: 10px;
+          color: white;
+        }
+
+        form div {
+          margin-bottom: 15px;
+        }
+
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+
+        input[type="text"], input[type="file"] {
+          width: 50%;
+          padding: 8px;
+          box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+          color: yellow;
+          background-color: black;
+          padding: 10px;
+          cursor: pointer;
+        }
+
+        table {
+          width: 70%;
+          margin-top: 20px;
+          text-align: center;
+          border-collapse: collapse;
+        }
+
+        th, td {
+          padding: 15px;
+          border-bottom: 1px solid #ddd;
+        }
+
+        th {
+          background-color: lightseagreen;
+          color: black;
+        }
+
+        img {
+          max-width: 300px;
+          max-height: 300px;
+        }
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      </style>
+
     @include("admin.admincss")
 
   </head>
@@ -27,7 +97,7 @@
             <tr>
                 <th style="padding: 30px">Name</th>
                 <th style="padding: 30px">Email</th>
-                <th style="padding: 30px">Action</th>
+                <th style="padding: 30px">Remove</th>
             </tr>
 
             @foreach($data as $data)
