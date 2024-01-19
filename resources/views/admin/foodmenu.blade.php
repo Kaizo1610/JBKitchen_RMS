@@ -131,8 +131,8 @@
                     <th style="padding: 30px">Code No</th>
                     <th style="padding: 30px">Description</th>
                     <th style="padding: 30px">Image</th>
-                    <th style="padding: 30px">1st Action</th>
-                    <th style="padding: 30px">2nd Action</th>
+                    <th style="padding: 30px">Delete</th>
+                    <th style="padding: 30px">Remove</th>
 
                 </tr>
 
